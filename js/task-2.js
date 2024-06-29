@@ -54,12 +54,11 @@ imgForStyles.forEach(imgForStyle => {
   imgForStyle.style.width = '360px';
   imgForStyle.style.height = '300px';
 });
-const body = document.querySelector('body');
 
-body.style.width = '1440px';
-
+gallery.style.width = '1440px';
 gallery.style.display = 'flex';
 gallery.style.flexWrap = 'wrap';
 gallery.style.listStyleType = 'none';
-gallery.style.gap = '12px';
-gallery.style.rowGap = '24px';
+gallery.style.gap = '48px 24px';
+gallery.style.margin = '0 auto';
+gallery.style.padding = '100px 156px';
